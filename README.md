@@ -1,1 +1,1 @@
-# interactive-web-app-from-student
+# Задания практики на гит
