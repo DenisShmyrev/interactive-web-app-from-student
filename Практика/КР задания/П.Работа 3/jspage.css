@@ -1,0 +1,50 @@
+div.main-wrapper{
+    margin: auto;
+    width: 70%;
+    text-align: justify;
+}
+h2{
+    text-align: center;
+}
+img{
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.notice{
+    position: fixed;
+    float: left;
+    animation-name: Appearance;
+    animation-duration: 10s;
+    animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+    z-index: 1;
+}
+.mine{
+    width: 200px;
+    height: auto;
+}
+.timer{
+    position: fixed;
+    float: left;
+    margin-top: 25%;
+}
+
+@-webkit-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  @-o-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  @-moz-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  @keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
